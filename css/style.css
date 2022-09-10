@@ -1,0 +1,164 @@
+/*common css starts*/
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+.container
+{
+    width: 1170px;
+    margin: auto;
+}
+.row
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+a
+{
+    text-decoration: none;
+}
+ul,ol
+{
+    list-style: none;
+}
+body
+{
+    font-family: 'Ubuntu', sans-serif;
+}
+.align-center{
+    align-items: center;
+}
+
+:root{
+    --mainfont: 'Ubuntu', sans-serif;
+    --secondaryfont: 'Abril Fatface', cursive;
+    --thirdfont: 'Open Sans', sans-serif;
+    --primarycolor:  #0f2f44;
+    --secondarycolor:  #ffc712;
+}
+/*common css ends*/
+/*HEADER STARTS HERE*/
+
+header
+{
+    background-color: var(--primarycolor);
+    color: #fefefe;
+    padding: 18px 0;
+}
+
+header .welcometext,
+header .openingtext
+{
+ width:50%;
+} 
+
+header .openingtext
+{
+    text-align: right;
+}
+/*HEADER ENDS HERE*/
+
+/*NAV STARTS HERE*/
+
+ nav .logo{
+    width: 30%;
+ }
+ nav .menu{
+    width: 70%;
+    text-align: right;
+ }
+ nav .menu ul li
+ {
+    display: inline-block;
+ }
+ nav .menu ul li a
+ {
+    padding: 40px 19px;
+    display: block;
+    font-weight: 500;
+    font-size: 16px;
+    color: #222222;
+    transition: 0.3s;
+ }
+ nav .menu ul li a:hover{
+    background-color: #fff9e6;
+    color: var(--secondarycolor);
+ }
+ nav .menu .search{
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    display: block;
+    border-radius: 50%;
+    border: 1px solid #ddd;
+    color: #999;
+    text-align: center;
+    line-height: 40px;
+ }
+/*NAV ENDS HERE*/
+
+.banner
+   {
+    background-image: url(../images/01_Home_Page.jpg);
+    width: 100%;
+    height: 605px;
+   }
+ .banner h5
+    {
+    font-size: 32px;
+    font-weight: 400;
+    color: var(--primarycolor);
+    text-transform: capitalize;
+    }
+ .banner h1
+   {
+    font-size: 80px;
+    font-weight: 800;
+    color: var(--primarycolor);
+    font-family: var(--secondaryfont);
+    text-transform: uppercase;
+   }
+ .banner h6
+   {
+    font-size: 32px;
+    font-weight: 400;
+    color: #8484bf;
+    text-transform: capitalize;
+   }
+ .banner p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #444444;
+    font-weight: var(--thirdfont);
+    padding-bottom: 30px;
+   
+    }
+ .divone{
+    width: 50%;
+    text-align: justify;
+    padding: 140px 0 0 0;
+   }
+ .banner a{
+    background-color: #8484bf;
+    width: 165px;
+    height: 50px;
+    padding: 20px 20px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #ffffff;
+    border-radius: 10px;
+    
+ }
+ .banner .play{
+   cursor: pointer;
+   width: 40px;
+   height: 40px;
+   display: block;
+   border-radius: 50%;
+   background-color: #ffffff;
+   color:#8484bf ;
+   text-align: center;
+   line-height: 40px;
+   
+}
